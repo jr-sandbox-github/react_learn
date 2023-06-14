@@ -1,10 +1,11 @@
 import React from 'react';
 
-export default function ProductTable() {
+export default function Products() {
     return (<>
         <div>
-            <div><SearchBar /></div>
-            <div><Products /></div>
+            <h2>Products</h2>
+            <SearchBar />
+            <ProductTable />
         </div>
     </>);
 }
@@ -14,7 +15,6 @@ export default function ProductTable() {
 export function SearchBar() {
     return (
     <div>
-        <h2>Products</h2>
         <div>
             <input type="text" id="search-text"/>
         </div>
@@ -27,7 +27,7 @@ export function SearchBar() {
 
 //---------------------------------------
 
-export function Products() {
+export function ProductTable() {
     return (
     <div>
         <span><strong>Name</strong></span>

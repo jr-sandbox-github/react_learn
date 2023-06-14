@@ -1,10 +1,10 @@
 import "./styles.css";
-import ProductTable from './ProductTable.js'
+import Products from './Products.js'
 
 export default function App() {
   return (
     <div className="App">
-      <ProductTable />
+      <Products />
     </div>
   );
 }
